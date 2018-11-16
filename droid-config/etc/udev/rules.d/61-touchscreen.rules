@@ -1,0 +1,3 @@
+# Create /dev/touchscreen symlink for first found multitouch event device.
+KERNEL=="event*", SUBSYSTEM=="input", ENV{ID_INPUT_TOUCHSCREEN}=="1", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{name}=="gslx68x_ts", ACTION=="add", TEST!="/dev/touchscreen", SYMLINK+="touchscreen"

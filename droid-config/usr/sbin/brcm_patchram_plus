@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $@ > /tmp/brcm_test
+rtk_hciattach -n -s 115200 /dev/ttyMFD0 rtk_h5 &> /tmp/rtk_hciattach.log &
+sleep 10
+exit 0

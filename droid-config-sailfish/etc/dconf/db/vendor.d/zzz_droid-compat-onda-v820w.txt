@@ -1,0 +1,10 @@
+# lipstick-configs.txt
+[lipstick/screen/primary]
+physicalDotsPerInch=189
+width=800
+height=1280
+
+# silica-configs.txt
+[desktop/sailfish/silica]
+theme_pixel_ratio=0.76
+theme_icon_subdir='z1.00'
