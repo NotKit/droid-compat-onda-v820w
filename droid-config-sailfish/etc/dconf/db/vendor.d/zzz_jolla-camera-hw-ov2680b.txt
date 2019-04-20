@@ -35,7 +35,7 @@ focusDistance=2
 [apps/jolla-camera/primary/video]
 imageResolution='1280x720'
 videoResolution='1280x720'
-viewfinderResolution='1280x720'
+viewfinderResolution='640x480'
 isoValues=[0, 100, 200, 400]
 whiteBalanceValues=[0, 3, 2, 6, 5]
 focusDistanceValues=[4, 16]
